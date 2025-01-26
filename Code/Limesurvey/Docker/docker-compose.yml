@@ -14,11 +14,11 @@ services:
       - ADMIN_NAME=Admin
       - ADMIN_PASSWORD=Admin123HQCS
       - ADMIN_EMAIL=admin@example.com
-      - PUBLIC_URL=141.45.212.242
+      - PUBLIC_URL=jugendbeteiligung.f4.htw-berlin.de:3006 # Setzen der public URL
     volumes:
       - ./surveys:/var/www/html/upload/surveys
     ports:
-      - 3006:8080
+      - 3006:8080 #Setzen des Portes auf dem der Service erreichbar sein soll
     depends_on:
       - db
   db:
