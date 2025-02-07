@@ -1,0 +1,374 @@
+/******************
+    User custom CSS
+    ---------------
+
+    In this file you can add your own custom CSS
+    It will be loaded last, so you can override any other property.
+    Also, it will never be updated. So if you inheritate a core template and just add here some CSS, you'll still benefit of all the updates
+*/
+
+/**
+Generelle Anpassungen der Webseite
+
+mnc(my neutral color) - ist eine neutrale Farbe für Elemente auf der Webseite
+mbc(my background color) - ist die Farbe für den Hintergrund
+mtx(my text color) - ist die Farbe für den Text
+*/
+ :root {
+            --mnc: #000000;
+            --mbc: #FFFFFF;
+            --mtc: #000000;
+        }
+
+/**Definition von Body der Webseite */     
+body {
+  color: var(--mtc);
+  background-color: var(--mbc);
+}
+/** Platzhalter/Positionieren des Textes der Radiobuttons*/
+.radio-item label{
+    padding-left: 20px;
+}
+
+/** Farbe für die Fortschrittsanzeige */
+.progress-bar {
+  background-color: var(--mnc);
+}
+
+.question-container{
+    border-radius: 20px;
+}
+
+/** Farbe für die Buttons (auch bei "Hover")*/
+.btn-primary {
+  background-color: var(--mnc);
+  border-color: var(--mnc);
+  color: #ffffff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary.dropdown-toggle.show, .btn-primary.dropdown-toggle.show:focus {
+  color: #ffffff;
+  background-color: var(--mnc);
+  border-color: var(--mnc);
+}
+
+/**Allgemeine Farbe für die Radiobuttons + Text der Radiobuttons bei auswahl*/
+.radio-item input[type=radio]:checked + label {
+ color: var(--mnc);   
+}
+.radio-item input[type=radio] + label::after {
+  background-color: var(--mnc);
+}
+.radio-item input[type=radio]:checked + label::before {
+  border-color: var(--mnc);
+}
+.radio-item input[type=radio]:checked + label::after {
+  background-color: var(--mnc);
+}
+
+
+/*Warning Text Display none*/
+.text-danger {
+    display: none;
+}
+
+
+
+/**
+Custom classes for every social media Plattform
+*/
+
+/**
+Youtube
+myb (my youtube black) - Textfarbe
+myr /my youtube red) - Akzentfarbe
+*/
+ :root {
+            --myb: #282828;
+            --myr: #FF0000;
+        }
+
+/* Default Werte für Youtube Design*/        
+.youtube{
+    font-family: Roboto,Arial,sans-serif;
+    color: var(--myb);
+    border: solid 5px #282828;
+    padding: 10px;
+    width: 100%;
+    margin: 15px auto;
+}
+
+/*Text der Radio Buttons*/
+.youtube .radio-item input[type=radio]:checked + label {
+ color: var(--myb);   
+}
+
+/*Radio buttons Kreis und Punkt */
+.youtube .radio-item input[type=radio] + label::after{
+  background-color: var(--myr);
+}
+.youtube .radio-item input[type=radio]:checked + label::before {
+  border-color: var(--myr);
+}
+
+
+
+
+/** 
+Ab hier Instagramm fragen Design
+midw (my instagram dirty white) - Farbe der Buttons
+miww (my instagram web widht) - Breite des Tatsächlichen Fragekontainers
+mimw (my instagram mobile width) - 
+*/
+:root {
+    --midw: #F4F5F7;
+    --miw: 60vh;
+}
+/*Generelle einstellungen zum Instagram design, wie iconischer hintergrund*/
+.instagram {
+    font-family: "Instagram Sans Condensed", "Instagram Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width:100%;
+    background: radial-gradient(circle at 30% 30%, #f58529, #dd2a7b, #8134af, #515bd4);
+    padding:2%;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+/*Fragen Kopf*/
+
+.instagram .question-title-container {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding:20px;
+    text-transform: uppercase;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 0px;
+    width:var(--miw);
+}
+
+
+/*Schlankere Frage als Designstandard*/
+.instagram  .ls-label-question  {
+    font-weight: normal;
+}
+
+/*Buttons untereinander*/
+.instagram .row{
+    display: inline;
+}
+
+/*Ausnutzen der breite der Buttons*/
+.instagram .row > .bootstrap-buttons-div{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/*Gestaltung der Buttons*/
+.instagram .ls-answers label.btn{
+    text-align: left;
+    color: black;
+    background-color:var(--midw);
+    border:none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/*Antwortkontainergestaltung */
+.instagram .answer-container {
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    width:var(--miw);
+}
+
+/*Buttons nach klick*/
+.instagram .btn-check:checked + .btn-primary{
+    color: white;
+    background-color: black;
+}
+
+/*Schließen des default Platzhalters*/
+.instagram .question-valid-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+/** Ab hier TikTok 
+mttb (my tiktok blue) - Akzentfarbe von TikTok
+*/
+:root{
+    --mttb:#25F4EE;
+}
+
+/*Generelle TikTok Designeinstellungen*/
+.tiktok{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    font-family:"TikTok-Sans-Text-Dark-Regular", "Space Grotesk Frontify", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    width: 100%;
+    margin: 15px auto;
+}
+
+/*Zentrieren der Frage*/
+.tiktok .question-title-container {
+    text-align: center;
+    color: white;
+    width:100%;
+}
+
+/*Zeilenabstand bei Mehrzeiligkeit bei der Frage*/
+.tiktok p{
+    margin-bottom:0px;
+}
+
+/*Abstand zum oberen Rand bei der Frage*/
+.tiktok  .question-title-container {
+    margin-top: 30px;
+}
+
+/*Gestaltung der Buttons*/
+.tiktok .ls-answers label.btn{
+    background-color:white;
+    color: black;
+    border:none;
+    border-radius: 20px;
+    display: flex; /* Ermöglicht die Zentrierung des Textes im Label */
+    align-items: center; /* Vertikale Zentrierung des Textes */
+    justify-content: center; 
+}
+
+/*Buttons untereinander*/
+.tiktok .row{
+    display: inline;
+}
+
+/*Buttonbreite*/
+.tiktok .row > .bootstrap-buttons-div{
+    width: 60vh;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+/*Buttongestaltung nach Klick*/
+.tiktok .btn-check:checked + .btn-primary{
+    color: black;
+    background-color: var(--mttb);
+}
+
+/*Verhindern von Standartplatzhaltern*/
+.tiktok .question-valid-container  {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+/**
+Ab hier Snapchat
+mscy (my snap chat yellow) - Akzentfarbe von Snapchat
+*/
+:root{
+    --mscy:#FFFC00;
+    
+}
+/*Generelle TikTok Designeinstellungen*/
+.snapchat {
+    font-family: Graphik, Helvetica, Tahoma, Arial, sans-serif;;
+    background-color: black;
+    color: white;
+    padding: 15%;
+    width: 100%;
+    margin: 15px auto;
+}
+
+/* Antwort Buttons sind rund und werden designed + ausrichtet*/
+.snapchat .ls-answers label.btn {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Titel wird zentriert*/
+.snapchat .question-title-container {
+    text-align: center;
+}
+
+/*Formatierung der Buttons*/
+.snapchat .row > .bootstrap-buttons-div {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: auto;
+    height:100px;
+    width: 100px;
+}
+/*Feinjustierung und überschreiben des Standards*/
+.snapchat .row > .bootstrap-buttons-div .form-check {
+    padding-left: 0;
+}
+/* Emojiskalierung und durchsichtigkeit*/
+.snapchat .emojis{
+    transform: scale(3.5);
+    opacity: 0.5;
+}
+
+/*Button Farbe nach Klick und Emojis voll visibility*/
+.snapchat .btn-check:checked + .btn-primary{
+    background-color: var(--mscy);;
+}
+.snapchat .btn-check:checked + .btn-primary .emojis{
+    opacity: 1;
+}
+
+/*Hoverfunktion*/
+.snapchat  label.btn:hover {
+  background-color: var(--mscy);;
+}
+.snapchat  label.btn:hover .emojis{
+  opacity: 1;
+}
+
+/**
+ab hier Ranglisten gestaltung
+*/
+/*Gestaltung der Border*/
+.favoriten .ranking-advanced-style .ranking-advanced-available-items .sortable-item {
+    border: 2px solid #000000;
+}
+.favoriten .ranking-advanced-style .sortable-rank, .ranking-advanced-style .ranking-advanced-sorted-items .sortable-item {
+    border: 2px solid #000000;
+}
+
+/*Verstecken von unnötigen elementen*/
+.favoriten .ranking-advanced-style .ranking-advanced-available-items .sortable-rank-subtitle {
+    display: none;
+}
+.favoriten .hiddentext{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Ende*/
