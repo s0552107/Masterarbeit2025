@@ -5,7 +5,7 @@ Um die Akzeptanz der Kinder und Jugendlichen zu erhöhen, wurden Umfragen erstel
 ## Umfragen - Masterarbeit2025
 In der Masterarbeit sind zwei Umfragen Thema: 
 * Die erste Umfrage ist nicht mehr erreichbar. 
-* Eine Demo der zweiten Umfrage ist [hier](https://leon.arisi.de/index.php/42?lang=de-easy) erreichbar.
+* Eine Demo der zweiten Umfrage ist [hier](https://leon.arisi.de/index.php/42?lang=de-easy) erreichbar. (Stand 10.03.2025)
 ## Aufbau des Verzeichnisses
 ### ..\Code
 Hier befinden sich alle Code-Dateien die in der Bearbeitung dieser Arbeit angefertigt wurden: 
