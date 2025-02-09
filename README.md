@@ -10,7 +10,7 @@ In der Masterarbeit sind zwei Umfragen Thema:
 ### ..\Code
 Hier befinden sich alle Code-Dateien die in der Bearbeitung dieser Arbeit angefertigt wurden: 
 * **..\Limesurvey\CSS\custom.css** ist die CSS-Datei die angefertigt wurde, um das Design der einzelnen Fragen aus Umfrage 2 zu gestalten
-* ** ..\Limesurvey\Docker\docker-compose.yml** ist die Datei mit der, der Limesurvey Container aufgesetzt wurde
+* **..\Limesurvey\Docker\docker-compose.yml** ist die Datei mit der, der Limesurvey Container aufgesetzt wurde
 * **..\Planka\api in diesem Ordner** befindet sich das kurze Script mit dem die API von Planka getestet wurde. Beim Ausführen von main.py werden die Boards ausgegeben
 * **..\Planka\Docker\docker-compose.yml** ist die Datei mit der, der Planak Container aufgesetzt wurde
 ## ..\Umfrage_Phase1
