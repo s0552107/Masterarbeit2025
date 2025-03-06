@@ -13,6 +13,7 @@ Hier befinden sich alle Code-Dateien die in der Bearbeitung dieser Arbeit angefe
 * **..\Limesurvey\Docker\docker-compose.yml** ist die Datei mit der, der Limesurvey Container aufgesetzt wurde
 * **..\Planka\api in diesem Ordner** befindet sich das kurze Script mit dem die API von Planka getestet wurde. Beim Ausführen von main.py werden die Boards ausgegeben
 * **..\Planka\Docker\docker-compose.yml** ist die Datei mit der, der Planak Container aufgesetzt wurde
+*  **..\Power Analyse** hier liegen die Skripte für die Berechnung der statistischen Power
 ## ..\Umfrage_Phase1
 In diesem Ordner befindet sich die Ergebnisse aus der ersten Umfrage: 
 * **..\Rohdaten** hier liegen die Ergbenisse als Rohdaten vor
