@@ -1,7 +1,22 @@
 # Masterarbeit2025
 ## Abstract 
-In der Jugendsozialarbeit sind Umfragen ein häufig genutztes Werkzeug, um Meinungen von Kindern und Jugendlichen einzuholen. In einem gemeinsamen Projekt der Hochschule für Technik und Wirtschaft Berlin und dem Kinder- und Jugendbeteiligungsbüro Treptow-Köpenick soll dieses Werkzeug durch eine digitale Plattform gestärkt werden. Es wird eine IT-Landschaft erstellt, welche für Mitarbeitende von Jugendfreizeiteinrichtungen einfach zu bedienen ist und für junge Menschen ansprechend und professionell wirkt. 
-Um die Akzeptanz der Kinder und Jugendlichen zu erhöhen, wurden Umfragen erstellt, die einen Zusammenhang zwischen Nutzung von Social Media Plattformen und Beliebtheit ähnlicher Designs zu den Plattformen untersuchen. Dieser Zusammenhang kann durch ein bereits wissenschaftlich untersuchtes Phänomen, den Mere-Exposure-Effekt, annehmen. Allerdings gibt es wenig Forschung zu dem Effekt in Bezug auf Kinder und Jugendliche. In dieser Arbeit wurden Ergebnisse aus den Umfragen ausgewertet, welche diese Hypothese, ein Verhältnis von App Nutzung und Beliebtheit ähnlicher Designs, unterstützen. 
+In der Jugendsozialarbeit sind Umfragen ein bewährtes Mittel, um Meinungen
+von Kindern und Jugendlichen einzuholen. In einem gemeinsamen Projekt der
+Hochschule für Technik und Wirtschaft Berlin und dem Kinder- und
+Jugendbeteiligungsbüro Treptow-Köpenick soll dieses Instrument durch eine
+digitale Plattform weiterentwickelt werden. Ziel ist die Schaffung einer
+benutzerfreundlichen IT-Lösung, die Mitarbeitenden von
+Jugendfreizeiteinrichtungen eine einfache Nutzung ermöglicht und für junge
+Menschen professionell und ansprechend gestaltet ist
+Um die Akzeptanz der Plattform bei Kindern und Jugendlichen zu erhöhen, wurde
+untersucht, ob ein Zusammenhang zwischen der Nutzung sozialer Medien und
+der Beliebtheit ähnlicher Designs besteht. Dieser Zusammenhang lässt sich mit
+dem Mere-Exposure-Effekt erklären, der besagt, dass Menschen Vertrautes
+bevorzugen. Die Auswirkungen dieses Phänomens auf Kinder und Jugendliche
+sind bisher wenig erforscht. In dieser Arbeit wurden Ergebnisse aus den
+Umfragen ausgewertet, welche die Hypothese unterstützen, dass ein Verhältnis
+zwischen App-Nutzung und Präferenz ähnlicher Designs bezüglich junger
+Menschen existiert. 
 ## Umfragen - Masterarbeit2025
 In der Masterarbeit sind zwei Umfragen Thema: 
 * Die erste Umfrage ist nicht mehr erreichbar. 
